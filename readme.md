@@ -10,7 +10,7 @@ Supports only Vue >= 2
 
     $ npm install vue-multivue --save
 
-## Usage
+## JS & Vue
 
 ```javascript
 // AwesomeComponent.vue
@@ -19,20 +19,21 @@ Supports only Vue >= 2
         <button @click="doSomethingCool"></button>
     </div>
 </template>
-<script>
-export default {
-    data () {
-        return {
-            isDoingSomethingCool: false
-        }
-    },
 
-    methods: {
-        doSomethingCool () {
-            this.isDoingSomethingCool = true;
+<script>
+    export default {
+        data () {
+            return {
+                isDoingSomethingCool: false
+            }
+        },
+
+        methods: {
+            doSomethingCool () {
+                this.isDoingSomethingCool = true;
+            }
         }
     }
-}
 </script>
 
 // app.js
@@ -45,6 +46,10 @@ new MultiVue('.my-app', {
     }
 });
 ```
+
+## HTML
+
+Now you can use your app with the `.my-app` selector multiple times on a single page.
 
 ```html
 <html>
