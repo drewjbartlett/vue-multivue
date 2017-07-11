@@ -1,6 +1,6 @@
 # MultiVue for Vue.js
 
-Use multiple vue components of the same class on the same page.
+Use multiple vue apps of the same class on the same page.
 
 ## Vue support
 
@@ -12,7 +12,7 @@ Supports only Vue >= 2
 
 ## JS & Vue
 
-```javascript
+```js
 // AwesomeComponent.vue
 <template>
     <div>
