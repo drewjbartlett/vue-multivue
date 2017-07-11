@@ -6,9 +6,11 @@ Use multiple vue components of the same class on the same page.
 
 Supports only Vue >= 2
 
-## Installation and usage
+## Installation
 
     $ npm install vue-multivue --save
+
+## Usage
 
 ```javascript
 // AwesomeComponent.vue
