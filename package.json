@@ -1,0 +1,15 @@
+{
+  "name": "mutlivue",
+  "version": "0.0.1",
+  "description": "Allows using multiple vue apps of the same class on the same page.",
+  "main": "multivue.js",
+  "scripts": {
+    "compile" : ""
+  },
+  "keywords": ["vue", "multivue", "multiple", "javascript"],
+  "author": "drewjbartlett",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.3.4"
+  }
+}
