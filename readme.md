@@ -12,7 +12,7 @@ Supports only Vue >= 2
 
 ## JS & Vue
 
-```js
+```vue
 // AwesomeComponent.vue
 <template>
     <div>
@@ -35,7 +35,9 @@ Supports only Vue >= 2
         }
     }
 </script>
+```
 
+```js
 // app.js
 import MultiVue from 'vue-multivue';
 import AwesomeComponent from './Components/AwesomeComponent.vue';
