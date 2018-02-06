@@ -1,6 +1,6 @@
 {
   "name": "vue-multivue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows using multiple vue apps of the same class on the same page.",
   "main": "dist/multivue.js",
   "scripts": {
